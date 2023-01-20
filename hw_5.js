@@ -24,3 +24,12 @@ form.querySelector('input');
 
 const allInputs = form.querySelectorAll('input')
 allInputs[allInputs.length-1]
+
+// Что выведет этот код? код выведет body
+// <script>
+//   let body = document.body;
+
+//   body.innerHTML = "<!--" + body.tagName + "-->";
+
+//   alert( body.firstChild.data ); // body
+// </script>
